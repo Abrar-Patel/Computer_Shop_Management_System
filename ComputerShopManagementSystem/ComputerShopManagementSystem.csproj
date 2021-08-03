@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F7A2819-F28E-4EFB-9045-53ED8372D27B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ComputerShopManagementSystem</RootNamespace>
+    <AssemblyName>ComputerShopManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addnewcomputer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addnewcomputer.Designer.cs">
+      <DependentUpon>Addnewcomputer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="computershopDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>computershopDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseOrder.Designer.cs">
+      <DependentUpon>PurchaseOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quotation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quotation.Designer.cs">
+      <DependentUpon>Quotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Receipt_detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receipt_detail.Designer.cs">
+      <DependentUpon>Receipt_detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Saleproducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saleproducts.Designer.cs">
+      <DependentUpon>Saleproducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier.Designer.cs">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlHome.Designer.cs">
+      <DependentUpon>UserControlHome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Addnewcomputer.resx">
+      <DependentUpon>Addnewcomputer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PurchaseOrder.resx">
+      <DependentUpon>PurchaseOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quotation.resx">
+      <DependentUpon>Quotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipt_detail.resx">
+      <DependentUpon>Receipt_detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Saleproducts.resx">
+      <DependentUpon>Saleproducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supplier.resx">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlHome.resx">
+      <DependentUpon>UserControlHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="computershopDataSet.xsc">
+      <DependentUpon>computershopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet.xss">
+      <DependentUpon>computershopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet1.xsc">
+      <DependentUpon>computershopDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet1.xss">
+      <DependentUpon>computershopDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet10.xsc">
+      <DependentUpon>computershopDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet10.xss">
+      <DependentUpon>computershopDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet11.xsc">
+      <DependentUpon>computershopDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet11.xss">
+      <DependentUpon>computershopDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet12.xsc">
+      <DependentUpon>computershopDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet12.xss">
+      <DependentUpon>computershopDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet13.xsc">
+      <DependentUpon>computershopDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet13.xss">
+      <DependentUpon>computershopDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet14.xsc">
+      <DependentUpon>computershopDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet14.xss">
+      <DependentUpon>computershopDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet15.xsc">
+      <DependentUpon>computershopDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet15.xss">
+      <DependentUpon>computershopDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet16.xsc">
+      <DependentUpon>computershopDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet16.xss">
+      <DependentUpon>computershopDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet17.xsc">
+      <DependentUpon>computershopDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet17.xss">
+      <DependentUpon>computershopDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet18.xsc">
+      <DependentUpon>computershopDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet18.xss">
+      <DependentUpon>computershopDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet19.xsc">
+      <DependentUpon>computershopDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet19.xss">
+      <DependentUpon>computershopDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet2.xsc">
+      <DependentUpon>computershopDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet2.xss">
+      <DependentUpon>computershopDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet20.xsc">
+      <DependentUpon>computershopDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet20.xss">
+      <DependentUpon>computershopDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet21.xsc">
+      <DependentUpon>computershopDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet21.xss">
+      <DependentUpon>computershopDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet22.xsc">
+      <DependentUpon>computershopDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet22.xss">
+      <DependentUpon>computershopDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet23.xsc">
+      <DependentUpon>computershopDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet23.xss">
+      <DependentUpon>computershopDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet24.xsc">
+      <DependentUpon>computershopDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet24.xss">
+      <DependentUpon>computershopDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet25.xsc">
+      <DependentUpon>computershopDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet25.xss">
+      <DependentUpon>computershopDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet3.xsc">
+      <DependentUpon>computershopDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet3.xss">
+      <DependentUpon>computershopDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet4.xsc">
+      <DependentUpon>computershopDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet4.xss">
+      <DependentUpon>computershopDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet5.xsc">
+      <DependentUpon>computershopDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet5.xss">
+      <DependentUpon>computershopDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet6.xsc">
+      <DependentUpon>computershopDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet6.xss">
+      <DependentUpon>computershopDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet7.xsc">
+      <DependentUpon>computershopDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet7.xss">
+      <DependentUpon>computershopDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet8.xsc">
+      <DependentUpon>computershopDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet8.xss">
+      <DependentUpon>computershopDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet9.xsc">
+      <DependentUpon>computershopDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="computershopDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>computershopDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="computershopDataSet9.xss">
+      <DependentUpon>computershopDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="computershop.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="computershop_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>computershop.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,111 @@
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.exe.config
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.exe
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.pdb
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csprojResolveAssemblyReference.cache
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Login.resources
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Properties.Resources.resources
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csproj.GenerateResource.Cache
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.exe
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.pdb
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Menu.resources
+c:\users\hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.UserControlHome.resources
+C:\Users\Hi\Documents\Visual Studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Saleproducts.resources
+C:\Users\Hi\Documents\Visual Studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.PurchaseOrder.resources
+C:\Users\Hi\Documents\Visual Studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Supplier.resources
+C:\Users\Hi\Documents\Visual Studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Addnewcomputer.resources
+C:\Users\Hi\Documents\Visual Studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\computershop.mdf
+C:\Users\Hi\Documents\Visual Studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\computershop_log.ldf
+C:\Users\Hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Customer.resources
+C:\Users\Hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Bill.resources
+C:\Users\Hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Quotation.resources
+C:\Users\Hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Reports.resources
+C:\Users\Hi\documents\visual studio 2013\Projects\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Receipt_detail.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.exe.config
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.exe
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.pdb
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\computershop.mdf
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\computershop_log.ldf
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.exe
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.pdb
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csprojResolveAssemblyReference.cache
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Addnewcomputer.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Bill.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Customer.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Login.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Menu.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Properties.Resources.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.PurchaseOrder.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Quotation.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Receipt_detail.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Reports.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Saleproducts.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Supplier.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.UserControlHome.resources
+E:\Past Data\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csproj.GenerateResource.Cache
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.exe.config
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.exe
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.pdb
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\computershop.mdf
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\computershop_log.ldf
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.exe
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.pdb
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csprojResolveAssemblyReference.cache
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Addnewcomputer.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Bill.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Customer.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Login.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Menu.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Properties.Resources.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.PurchaseOrder.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Quotation.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Receipt_detail.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Reports.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Saleproducts.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Supplier.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.UserControlHome.resources
+E:\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csproj.GenerateResource.Cache
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.exe.config
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.exe
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.pdb
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\computershop.mdf
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\computershop_log.ldf
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.exe
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.pdb
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csprojResolveAssemblyReference.cache
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Addnewcomputer.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Bill.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Customer.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Login.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Menu.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Properties.Resources.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.PurchaseOrder.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Quotation.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Receipt_detail.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Reports.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Saleproducts.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Supplier.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.UserControlHome.resources
+E:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csproj.GenerateResource.Cache
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\computershop.mdf
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\computershop_log.ldf
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.exe.config
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.exe
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\bin\Debug\ComputerShopManagementSystem.pdb
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csprojAssemblyReference.cache
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Addnewcomputer.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Bill.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Customer.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Login.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Menu.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Properties.Resources.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.PurchaseOrder.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Quotation.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Receipt_detail.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Reports.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Saleproducts.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.Supplier.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.UserControlHome.resources
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csproj.GenerateResource.cache
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.csproj.CoreCompileInputs.cache
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.exe
+D:\BCA\sem-v-project\ComputerShopManagementSystem\ComputerShopManagementSystem\obj\Debug\ComputerShopManagementSystem.pdb
